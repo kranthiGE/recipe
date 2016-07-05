@@ -1,0 +1,37 @@
+
+GIT & GITHUB Source code version control management (VCS):
+************************************************
+- diff between files
+- offline
+- single commit for a logical change
+- git checkout - to earlier commit
+
+staging area
+branching
+*******
+ - experimental features or a new version
+ - context switching
+ - master is production replica
+ - dev-branch is the active code for all new enhancements & bugs
+ - exp-mode is an experimental branch
+todo: diagram
+branch structure: git log --graph master easy-mode
+Reachability
+---
+git checkout -b new_branch_name
+merging
+----
+git merge master reach-mode
+git branch -d delete
+git remote git-recipe
+git pull git-recipe master
+
+collaboation
+************
+if remote master has modified and local copy also has been modified with a different commit, then how to handle?
+testing with this change in this file now
+
+Scenarios:
+*********
+- 2 developers (d1,d2) modifying 2 copies of the same file 
+- auto & manual merge, resolve conflicts manually in a scenario where the files have been modified at the same lines
