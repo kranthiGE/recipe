@@ -1,0 +1,13 @@
+## Obbattu recipe project
+=========================
+Author: Kranthi Kiran
+Created on: 5-Jul-16
+Description: Making of my favourite obbattu
+
+#Features:
+
+#Installing & local setup:
+
+URL: http://kranthige.github.io/
+
+References:
