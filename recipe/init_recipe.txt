@@ -2,3 +2,4 @@ What happens when you initialize a repository? Why do you need to do it?
 git init
 git status
 git log does not show any commits as there no commits yet
+git add
